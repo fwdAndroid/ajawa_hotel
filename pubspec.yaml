@@ -42,6 +42,7 @@ dependencies:
   loading_animation_widget: ^1.2.0+4
   provider: ^6.0.5
   sidebarx: ^0.14.0
+  syncfusion_flutter_datagrid: ^20.4.48
 
 dev_dependencies:
   flutter_lints: ^2.0.0
