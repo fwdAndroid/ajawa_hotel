@@ -136,19 +136,15 @@ class ExampleSidebarX extends StatelessWidget {
         );
       },
       footerItems: [
-        SidebarXItem(
-          icon: Icons.logout,
-          label: 'Log Out',
-        ),
+        // SidebarXItem(
+        //   icon: Icons.logout,
+        //   label: 'Log Out',
+        // ),
       ],
       items: [
         const SidebarXItem(
           icon: Icons.business,
           label: 'Order Management',
-        ),
-        const SidebarXItem(
-          icon: Icons.business_center,
-          label: 'Resturant Management',
         ),
         const SidebarXItem(
           icon: Icons.looks,
@@ -178,8 +174,6 @@ class _ScreensExample extends StatelessWidget {
             return const OrderManagement();
 
           case 1:
-            return const Resturant_Management();
-          case 2:
             return const PaymentManagement();
 
           default:
